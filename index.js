@@ -39,11 +39,11 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <>
         <Saluda/>
         <SaludaPadre/>
          <SaludaPadreReactFragment/>
-      </div>
+      </>
     );
   }
 }
